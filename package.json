@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jquery-mapael": "^2.2.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.25.1",
+    "webpack-cli": "^4.5.0"
+  },
+  "name": "mapPt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
