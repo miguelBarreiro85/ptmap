@@ -6,6 +6,23 @@ import './pt';
 
 $(".container").mapael({
     map : {
-        name : "portugal"
+        name : "portugal",
+        width : 650,
+    },
+    legend : {
+
+    },
+    areas : {
+        'leiria': {
+            value: "leiria",
+            href: "www.google.pt",
+            tooltip: {content: "Leiria"}
+        },
+        'lisboa': {
+            value: "leiria",
+            href: "www.google.pt",
+            tooltip: {content: "Leiria"}
+        }
     }
+    
 });
